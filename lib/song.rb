@@ -23,4 +23,9 @@ class Song
     @@all << songName
   end
 
+  def Song.find_by_name(songName)
+    @@all.find do |song|
+      song == songName
+    end
+
 end
