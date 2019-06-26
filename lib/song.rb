@@ -33,6 +33,7 @@ class Song
     @@all.find do |song|
       song == songName
     end
+  end
 
 
 end
