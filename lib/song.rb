@@ -14,4 +14,13 @@ class Song
     @@all.push
   end
 
+  def Song.new_by_name(songName)
+    @name = songName
+  end
+
+  def Song.create_by_name(songName)
+    @name = songName
+    @@all << songName
+  end
+
 end
