@@ -27,5 +27,12 @@ class Song
     @@all.find do |song|
       song == songName
     end
+  end
+
+  def Song.find_or_create_by_name(songName)
+    @@all.find do |song|
+      song == songName
+    end
+    
 
 end
