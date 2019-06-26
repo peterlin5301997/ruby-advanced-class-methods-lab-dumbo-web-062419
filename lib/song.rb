@@ -11,7 +11,7 @@ class Song
   end
 
   def Song.create
-    @@all << Song.new
+    Song.new
   end
 
   def Song.new_by_name(songName)
