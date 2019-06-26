@@ -11,6 +11,7 @@ class Song
   end
 
   def Song.create
+    Song.new
     @@all.push
   end
 
