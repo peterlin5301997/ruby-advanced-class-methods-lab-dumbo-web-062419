@@ -14,6 +14,10 @@ class Song
     @@all.push
   end
 
+  def name
+    @name
+  end
+
   def Song.new_by_name(songName)
     @name = songName
   end
